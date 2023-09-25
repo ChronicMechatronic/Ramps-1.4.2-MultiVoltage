@@ -10,8 +10,9 @@ two steppers running on 24V
 one 5V stepper
 
 The fifth stepper motor driver can be set to run off either the 5V, 12V, or 24V rail via 0 ohm links to be soldered on as necessary (add R30 for 5V; R29 for 12V; or R28 for 24V)
-
 If you have a sufficiently powerful power supply the two 12V rails can be combined to run off a single barrel jack by populating R10 and R11 with 0 ohm links.
 
-
 None of the voltage rails are constrained by anything other than the voltage rating of its capacitor, so repurpose as you please.
+
+
+For pretty much everything else the standard documentation on https://reprap.org/wiki/RAMPS_1.4 applies
